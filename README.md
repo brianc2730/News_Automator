@@ -2,21 +2,38 @@
 
 By: **Brian Cheng**
 
-This project will generate the top 5 headlines on Artificial Intelligence and automatically opens them in your browser when you run this script.
+This project automatically generates the top headlines on Artificial Intelligence from reputable sources. It opens them right in the browser if users want to read them right away and also saves these articles as bookmarks in the user's documents folder.
+
+<img src="" alt="News Automator Walkthrough">
 
 ## Why I Built This Project
 
-Being in the tech industry requires keeping up with the latest trends and practices in order to keep learning.
-I wanted to read more and this was a script I could easily run every morning that allows me to stay up to date on the latest tech news.
+Being in the tech industry requires keeping up with the latest trends in order to keep learning. As someone interested in the growth of AI, I wanted to consistently read everyday. This is a script that I run every morning, and it allows me to save time trying to find articles from different sources.
 
 ## Getting Started
 
-**Requirements**
+If you want to use this project or modify it with other news categories...
 
-pip
+### Requirements
 
-If you want to use this project, or make changes to the project yourself...
+- [NewsAPI](https://newsapi.org)
+- [pip](https://pypi.org/project/pip/)
 
-clone
+### Installation
 
-Then run pip install -r requirements.txt
+1. **Clone The Repo**
+
+   ```sh
+   git clone https://github.com/brianc2730/news_automator
+   ```
+
+2. **Install the necessary Python Packages**
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Create a `.env` file and copy your API key**
+   ```
+   API_KEY=
+   ```
