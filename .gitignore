@@ -1,3 +1,4 @@
 newsenv/
 *.env
 .vscode
+.DS_Store
